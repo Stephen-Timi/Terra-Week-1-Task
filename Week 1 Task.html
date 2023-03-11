@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Week 1 Task</title>
+    </head>
+    <body>
+        <h1>Week 1 Task</h1>
+        <form name="myForm" onsubmit="myFunction()">
+            <fieldset>
+                <legend>Simple Form</legend>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name here" required>
+                <br>
+                <br>
+
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" placeholder="eg myname@example.com" required>
+                <br>
+                <br>
+
+                <label for="phonenumber">Phone Number</label>
+                <input type="tel" name="phonenumber" placeholder="Enter your phonenumber" required>
+                <br>
+                <br>
+
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="Enter a password" required>
+                <br>
+                <br>
+
+                <label for="gender">Gender</label>
+                <select>
+                    <option value="">Please select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                </select>
+                <br>
+                <br>
+                
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+        <script>
+            function myFunction() {
+                alert("Submission successful!")
+            }
+        </script>
+    </body>
+</html>
